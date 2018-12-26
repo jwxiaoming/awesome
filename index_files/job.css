@@ -1,0 +1,272 @@
+/**
+ * CSS Global Style
+ * @author: LangLee;
+ * @data: 2014-06-17;
+**/
+
+
+/**
+ * 色值 
+ **/
+/* 色值-蓝色：3498db*/
+/* 色值-灰色：bdc3c7*/
+/* 深色-蓝色：2c3e50*/
+/* 边框-分割线 bdc3c7 */
+.dbcolor{color:#3498db}
+.clear{clear:both;}
+.i_opacity{width:100%;position:absolute;height:100%;background:#000; opacity:0.5;}
+/* ===========我的简历============ */
+/*.job_wpn{background:#fff;}*/
+.job_wpn .job_ucenter_nav{border:0;}
+.topquan{background:url("../img/user-top.png")#f8f9fa repeat-x center bottom;height:11px;width:100%;width:880px; position:absolute;top:-11px;}
+.job_user_body{background:#f8f9fa;}
+
+/* 用户头像部分 */
+.job_user_content{width:880px;margin:0 auto;box-shadow: 0px 0px 6px #ccc;background:#fff;padding-top:5px;margin-top:45px;}
+.job_user_content .job_user_ban{margin:0 auto;width:100%;height:320px;padding-top:30px;margin-bottom:20px;}
+.job_Wser_bg{overflow:hidden;height:350px;position:absolute;top:0;left:0;width:100%;}
+.job_user_content .job_user_ban .job_user_bg{background: url("../img/user-ban.jpg") no-repeat center center;width:880px;height:350px;position:absolute;top:0;left:0;}
+.job_user_content .job_user_ban .banner_transition{
+	-moz-transform:scaleX(1) scaleY(1);
+	-ms-transform:scaleX(1) scaleY(1);
+	-webkit-transform:scaleX(1) scaleY(1);
+	
+	-webkit-animation-name: banmove;
+	-webkit-animation-duration: 4s;
+}
+ @-webkit-keyframes banmove{
+	 from{-webkit-transform:scaleX(1.05) scaleY(1.05);-moz-transform:scaleX(1.05) scaleY(1.05);;-o-transform:scaleX(1.05) scaleY(1.05);}
+ }
+/* 头像 */
+.job_user_content .job_user_ban .user_wrap{margin:0 auto;width:160px;height:160px;box-shadow: 0px 0 0 3px rgba(255,255,255,0.3);border-radius: 50%; cursor:pointer;}
+.job_user_content .job_user_ban .user_wrap .name_img{border-radius:160px;width:160px;height:160px;}
+.job_user_content .job_user_ban .user_wrap .portrait{
+	background-color: transparent;
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	border-radius: 50%;
+	display: block;
+}
+.job_user_content .job_user_ban .user_wrap i{left:0;background:url("../img/icons-xj.png")#000 no-repeat center center;width:100%;top:0;bottom:0;border-radius: 50%; position:absolute; opacity:0;transition: all .5s;}
+.job_user_content .job_user_ban .user_wrap:hover i{ opacity:0.3; transition: all .5s;}
+.up-name-info{position:absolute;left:0;top:0;right:0;bottom:0; }
+.job_user_content .job_user_ban .user_wrap span{position:absolute;bottom:0px;left:0;width:100%;text-align:center;color:#fff; opacity:0;transition:all .5s;}
+.job_user_content .job_user_ban .user_wrap:hover span{bottom:20px;opacity:1;transition:all .5s;}
+
+/* 姓名 */
+.job_user_content .job_user_ban .user_name{text-align:center;color:#fff;margin-top:15px;}
+.job_user_content .job_user_ban .user_name .dw_name{margin:0 auto; display:table;}
+/* 姓名-编辑 */
+.job_user_content .job_user_ban .job_uanem_input{height:30px;padding:5px 0;line-height:30px;width:200px;border:0;border-radius:2px;font-size:30px;text-align:center;color:#fff;background:none;}
+.job_user_content .job_user_ban .user_name button{ display:none;}
+/* 姓名-编辑 */
+.job_user_content .job_user_ban .input_name_edit .job_uanem_input{height:30px;padding:5px 0;line-height:normal;width:200px;border:0;border-radius:2px;font-size:30px;text-align:center;color:#5d6d7e;margin-right:20px;margin-left:230px;background:#fff;}
+.job_user_content .job_user_ban .input_name_edit button{display:block;}
+
+/* 用户职位状态 */
+.job_user_content .job_user_ban .user_qzzt{text-align:center;width:160px;font-size:16px;color:#fff;margin:10px auto;height:35px; line-height:35px;}
+.job_user_content .job_user_ban .user_qzzt span{ display:block; text-align:center; cursor:pointer;}
+.job_user_content .job_user_ban .bg_info{background:rgba(255,255,255,0.95);color:#2c3e50; border:1px solid rgba(189,195, 196,.4); border-bottom:0;}
+.job_user_content .job_user_ban .bg_info i.icon-down-mini{color:#bdc3c7;}
+.job_user_content .job_user_ban .user_qzzt .pos .down_list{ position:absolute; width:158px;left:-1px; z-index:2; display:none; border:1px solid rgba(189,195, 196,.4); border-top:0;background:rgba(255,255,255,0.95);cursor:pointer}
+.job_user_content .job_user_ban .user_qzzt .pos .down_list p{line-height:35px;height:35px;color:#2c3e50;font-size:16px; cursor:pointer;}
+.job_user_content .job_user_ban .user_qzzt .pos .down_list p:hover{background:#eae9e9;color:#2c3e50; transition:all 0.3s;}
+.job_user_content .job_user_ban .user_qzzt .pos .down_list p.on{background:#eae9e9;color:#2c3e50;}
+.job_user_content .job_user_ban .user_qzzt i{color:#fff;font-size:22px;position:absolute;right:0; top:7px;}
+
+/* 个人连接 */
+.job_user_content .job_user_ban .user_url{text-align:center;font-size:16px;color:#fff;}
+.job_user_content .job_user_ban .user_url a{ text-decoration:underline;color:#ffffff; display:table;margin:0 auto;}
+.job_user_content .job_user_ban .user_url a:hover{ text-decoration:underline;}
+.job_user_content .job_user_ban .bg_op{ background:#fff0;  position:absolute;width:100%;top:0;bottom:0;}
+.job_user_content .eidt_bgban{width:19px;height:19px;background:url("../img/icons-col.png") no-repeat left top; z-index:2; border-radius:2px;right:35px;top:10px; position:absolute; cursor:pointer}
+.job_user_content .bgpic{
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	display: block; 
+}
+.annex{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	display: block; 
+}
+.bar-border {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    width: 80%;
+    height: 10px;
+    border: 2px solid #26b49c;
+    padding: 2px;
+    border-radius: 10px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.bar-border .bar-cont {
+    width: 0;
+    height: 10px;
+    background-color: #26b49c;
+    border-radius: 10px
+}
+.job_user_content .eidt_bgban span{background:#fff;width:140px;text-align:left;padding: 5px 0px 5px 15px;position:absolute;right:25px;top:20px; border-radius:2px;font-size:14px; display:none;}
+.job_user_content .job_user_ban .name_edit{position:absolute;right:35px;bottom:9px; cursor:pointer;}
+.job_user_content .job_user_ban .name_edit span{color:#fff;}
+.job_user_content .job_user_ban .name_edit i{color:#fff;margin-left:5px;}
+
+/* 用户列表部分 */
+.job_user_list{width:800px;margin:0 auto;}
+.job_user_list .user_lable{}
+.job_user_list .user_lable p{color:#5d6d7e;background:#ecf0f1; border-radius:2px;height:40px; line-height:40px; text-align:center;padding:0 30px;float:left;margin:10px 20px 0 0;font-size:16px;}
+.job_user_list .h_title{height:50px;font-size:20px;border-bottom:1px solid #e4e9ed;margin-bottom:10px;}
+.job_user_list .h_title h3{height:50px;float:left;font-weight:normal;line-height:50px;font-size:20px;}
+.job_user_list .h_title .titiemsg{font-size:16px;color:#bdc3c7;line-height:50px;padding-left:10px;}
+/* 点击编辑内容 */
+.edit_click{height:30px;line-height:30px;cursor:pointer; position:absolute;right:10px;top:15px;}
+.edit_click span{font-size:14px;color:#bdc3c7;}
+.edit_click i{font-size:16px;color:#3498db;margin-left:5px;}
+
+/* 点击编辑内容 */
+.uploud_click{height:30px;line-height:30px;cursor:pointer; position:absolute;right:10px;top:15px;}
+.uploud_click span{font-size:14px;color:#bdc3c7;}
+.uploud_click i{font-size:16px;color:#3498db;margin-left:5px;}
+.edit_click:hover span{color:#3498db;}
+.uploud_click:hover span{color:#3498db;}
+/* 点击编辑内容 */
+.edit_click_qx{height:30px;line-height:30px;cursor:pointer; position:absolute;right:10px;top:15px;}
+.edit_click_qx span{font-size:14px;color:#bdc3c7;}
+.edit_click_qx i{font-size:16px;color:#3498db;margin-left:5px;}
+
+/* 简历基本信息 */
+.edit_jb_msg li{float:left;width:266px;height:80px; margin-top:20px;}
+.edit_jb_msg li i{font-size:16px;text-align:center;display:block;height:50px;color:#7f8c8d;font-size:35px;line-height:50px;}
+/*.edit_jb_msg li i#sr{background:url('../img/icons-jbxx.png') no-repeat 9px 6px;display:block;width:50px;height:50px; margin:0 auto;}*/
+/*.edit_jb_msg li i#jy{background:url('../img/icons-jbxx.png') no-repeat -50px 6px;display:block;width:50px;height:50px; margin:0 auto;}*/
+/*.edit_jb_msg li i#tel{background:url('../img/icons-jbxx.png') no-repeat -122px 6px;display:block;width:50px;height:50px; margin:0 auto;}*/
+/*.edit_jb_msg li i#xl{background:url('../img/icons-jbxx.png') no-repeat 9px -86px;display:block;width:50px;height:50px; margin:0 auto;}*/
+/*.edit_jb_msg li i#sex{background:url('../img/icons-jbxx.png') no-repeat -51px -96px;display:block;width:50px;height:50px; margin:0 auto;}*/
+/*.edit_jb_msg li i#email{background:url('../img/icons-jbxx.png') no-repeat -124px -85px;display:block;width:50px;height:50px; margin:0 auto;}*/
+.edit_jb_msg li p{font-size:16px;color:#5d6d7e;text-align:center;display:block;height:30px;line-height:30px;}
+
+/* 编辑简历基本信息 */
+.click_edit_content .edit_content{width:360px;}
+.click_edit_content .edit_content .edit_content_rinput{width:280px;float:right;}
+.edit_content_rinput .lang-input{ position:absolute; z-index:2;background:none;}
+#nan_nv a{ display:block;float:left;width:50px;border:1px solid #e4e9ed; text-align:center;color:#bdc3c7; margin-right:20px; height:48px; line-height:48px;font-size:16px;}
+#nan_nv a.on{border:2px solid #3499DA;width:46px;height:46px;color:#5d6d7e;}
+.w248{width:248px;}
+
+/* 资料完善程度 */
+.job-resume-right{width:240px;margin-top:50px;}
+.lang-btn-resume{width:100%; display:block;}
+.resume-complete .f16{margin:20px 0;}
+.resume-complete .f16 span{color:#3498db;}
+.resume-complete .bor{background:#bdc3c7;height:2px;}
+.resume-complete .bor-lang{background:#1abc9c;height:2px;width:50%;}
+.resume-complete .bor-lang i{ position:absolute; width:8px;height:8px;background:#fff;border:2px solid #1abc9c;right:0; border-radius:8px;top:-5px}
+
+/* 右侧导航 */
+.resume_msg_list{background:#fff;width:240px;margin-top:20px;}
+.resume_msg_list ul{padding-top:30px; padding-bottom:1px;cursor:pointer;}
+.resume_msg_list ul li{height:20px; line-height:20px;font-size:16px;margin-bottom:40px;text-indent:30px;}
+.resume_msg_list ul li a{color:#5d6d7e;}
+.resume_msg_list ul li a:hover{color:#3498db;}
+.resume_msg_list ul li.on{border-left:2px solid #3498db; text-indent:28px;}
+.resume_msg_list ul li.on a{color:#3498db;}
+.resume_msg_list ul li span{color:#e74c3c;float:right;padding-right:30px;}
+.resume_msg_list ul li .icon-eye{font-size:21px;float:right;padding-right:35px;}
+.resume_position{position: fixed;top:-550px;margin-top: 0; z-index:10;}
+.job-resume-right .resume_position{margin-top: 550px;transition:all 1s;}
+.resume_msg_btn div{height:40px;line-height:40px;color:#5d6d7e;text-align:center;margin-bottom:10px; border-radius:2px;font-size:16px;}
+.resume_msg_btn .daochu a{border-radius:2px;display:block;line-height:38px;color:#5d6d7e;border:1px solid #bdc3c7;}
+.resume_msg_btn .daochu a:hover{background:#3498db;color:#fff;border-color:#3498db;}
+.resume_msg_btn div .icon-down-mini{color:#5d6d7e;font-size:22px;top:10px;}
+
+.resume_msg_btn .privacy span{border-radius:2px;border:1px solid #bdc3c7;display:block;line-height:38px;cursor:pointer;height: 40px;}
+.resume_msg_btn .privacy span:hover{background:#3498db;color:#fff;border:1px solid #3498db;}
+.resume_msg_btn .privacy .icon-down-mini{color:#5d6d7e;font-size:22px;top:10px;}
+.resume_msg_btn .privacy:hover i.icon-down-mini{color:#fff;}
+
+.resume_msg_btn .active{background:#3498db;color:#fff;}
+.resume_msg_btn .active span{border-color:#3498db;}
+.resume_msg_btn .active i.icon-down-mini{color:#fff;}
+.resume_msg_btn .privacy ul{position:absolute;top:40px;left:0;background:#fff;right:0;border:1px solid #e4e9ed;border-radius:2px;border-top:0; opacity:0;}
+.resume_msg_btn .privacy ul li a{display:block;color:#2c3e50;width:100%;line-height:40px;transition:all 0.2s;}
+.resume_msg_btn .privacy ul li a:hover{background:#eae9e9;transition:all 0.2s;}
+.resume_msg_btn .privacy ul li.on {background:#eae9e9;}
+/* 默认提示一行文字 */
+.default_text{font-size:14px;color:#7f8c8d;padding-left:80px;}
+.default_text a{font-size:14px;color:#3498db;}
+/* bottom_叠加 */
+.bottom_diejia{width:100%;height:25px;background:url("../img/bottom_diejia.png") no-repeat center bottom; position:absolute;}
+
+/* ===========我投的简历-【投递记录】============ */
+/* 招聘导航 */
+/*.job_ucenter_nav{ margin: 15px 0; }*/
+/*.job_ucenter_nav .job_nav_operation { }
+.job_ucenter_nav .job_nav_operation li{float:left; line-height:60px;width:80px;margin-right:30px;}
+.job_ucenter_nav .job_nav_operation li a{display:block; text-align:center;font-size:16px;color:#2c3e50;}
+.job_ucenter_nav .job_nav_operation li a:hover{color:#3498db; transition:all 0.2s;}
+.job_ucenter_nav .job_nav_operation li a.on{color:#3498db;border-bottom:2px solid #3498db; height:58px;}
+*/ /*20151112*/
+ /*.job_nav_operation { float: left; margin: 15px 0; }*/
+ .job_nav_operation { margin: 15px 0; }
+ .job_nav_operation li { position: relative; float: left; }
+ .job_nav_operation li a { color: #34495e;display: block; height: 40px; margin-right: 25px; padding: 0 20px; font-size: 14px; line-height: 40px; text-align: center; }
+.job_nav_operation li a:hover { color: #3498db; }
+.job_nav_operation li a.on { border: 1px solid #bdc3c7; border-radius: 20px; }
+ .job_nav_operation li a.on:hover { border-color: #3498db; color: #3498db; }
+
+.job_resume_msg{ margin: 15px 0; }
+.job_resume_msg{height:40px; color:#bdc3c7;font-size:16px;line-height:40px;}
+.job_resume_msg i{color:#3498db;}
+
+/* 投放的简历列表 */
+.job_resume_list{border:1px solid #bdc3c7;height:65px; margin-bottom:20px;}
+.job_resume_list ul.res_list{margin-left:30px;}
+.job_resume_list ul.res_list li{float:left; line-height:65px; font-size:18px;color:#5d6d7e;}
+
+.job_resume_list ul.res_list #position{width:130px;color:#3498db;margin-right:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.job_resume_list ul.res_list #company{width:200px;margin-right:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.job_resume_list ul.res_list #interview{width:70px;margin-right:70px;}
+.job_resume_list ul.res_list #city{width:40px;margin-right:70px; text-align:center;}
+.job_resume_list ul.res_list #time{width:140px;margin-right:70px; text-align:center;}
+.job_resume_list ul.res_list #state{width:120px;text-align:center;cursor:pointer;border-left:1px solid #bdc3c7;}
+.job_resume_list ul.res_list #state:hover{ color: #3498db; }
+.job_resume_list ul.res_list #state:hover .state_list{display:block;}
+.job_resume_list ul.res_list #state span{float:left;padding-left:15px;}
+.job_resume_list ul.res_list #state .icon-down-mini{float:right;width:24px;line-height:65px;font-size:24px;color:#5d6d7e;}
+
+/* 状态下拉 */
+.state_list{ position:absolute; top:65px; background:#fff; z-index:1; border:1px solid #bdc3c7;left:-1px;right:-1px;border-top:0;display:none;}
+.state_list p{height:40px; line-height:40px;}
+.state_list p:hover{background:#ecf0f1;transition: all 0.2s;}
+.state_list p.on{background:#ecf0f1;}
+/* 文本框文字提示 */
+label.input-tip{position:absolute;top:0;left:15px;height:50px;line-height:50px;font-size:16px;color:#bdc3c7; z-index:1;}
+.input_parent { position:relative;background:#fff;height:50px;}
+#basicinfo .input_parent { width:280px;}
+.input_parent .lang-input{display:block; position:relative; z-index:2;background:none;}
+
+.job_resume_list ul.res_list .icon-close{width:20px; display:block;line-height:20px;font-size:20px;margin-right:20px;margin-top:23px;cursor:pointer;}
+.job_resume_list ul.res_list .icon-close:hover{color:#3498db;}
+
+/* 虚线 */
+.bottom_bor{margin:30px auto;width:780px;}
+.bottom_bor p{width:100%;height:1px;background:#E0E2E4;margin-top:1px;}
+

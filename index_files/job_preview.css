@@ -1,0 +1,80 @@
+/*.prev_top{background: url("../img/q.png") repeat-x center center;width:100%;height:7px;}*/
+.job-preview-con{width:880px;margin:0 auto;}
+
+.preview_imsg i{width:30px;height:30px;display: block;background:url("../img/msg-icon.png") no-repeat;background-size: 275px;}
+.preview_imsg .icon-sina{background-position: -249px 6px;}
+.preview_imsg .icon-weixin{background-position: -80px -33px;}
+.preview_imsg .icon-douban{background-position: -106px -26px;background-size: 250px;}
+.preview_imsg .icon-qq{background-position: -30px -28px;background-size: 250px;}
+.preview_imsg .icon-zhihu{background-position: 5px -26px;background-size: 250px;}
+.preview_imsg .icon-lofter{background-position: -71px 6px;background-size: 250px;}
+.preview_imsg .icon-twitter{background-position: -146px 8px;background-size: 250px;}
+.preview_imsg .icon-ins{background-position: -106px 6px;background-size: 250px;}
+.preview_imsg .icon-in{background-position: -32px 5px;background-size: 250px;}
+.preview_imsg .icon-dribbble{background-position: 4px 5px;background-size: 270px;}
+.preview_imsg .icon-be{background-position: -199px 8px;background-size: 270px;}
+/* 导航 */
+.job-mail-nav{width:100px;position:fixed;left:50%;top:50%;margin-left:460px;margin-top:50px;}
+.job-mail-nav ul li{width:100%;background:#ecf0f1;text-align:center;font-size:16px;position:relative; cursor:pointer;margin-bottom:20px;border-radius:2px;height:40px;line-height:40px;}
+.job-mail-nav ul li:hover{background:#3da2e3;color:#fff; transition:all 0.1s;}
+.job-mail-nav ul li a{display:block;width:100%;color: #34495e;}
+.job-mail-nav ul li a:hover{color: #fff;}
+.job-mail-nav li.on{background:#3498db;color:#fff;}
+.job-mail-nav .job_download{overflow:hidden;padding-top:20px;opacity:0;border-radius:2px;position:absolute;top:32px;width:100%;} 
+.job-mail-nav .job_download a{background:#3da2e3;line-height:40px;height:40px;text-align:center;display:block;color:#fff;}
+.job-mail-nav .job_download a:hover{background:#3498db;transition:all 0.1s;}
+.job-mail-nav .job_download i{background:#3da2e3;position:absolute;top:13px;width:15px;height:15px;transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-webkit-transform: rotate(45deg);z-index:-1;left:42px;}
+/* 发送邮件 */
+.job-mail-box .content{background:#fff;border-radius:2px;padding:25px 40px 20px 20px;width:520px;z-index:2;}
+.job-mail-box .content .lang-input{padding:11px;width:416px;}
+.btn_fasong{text-align:center;}
+.input_title span.tit{color:#34495e;font-size:16px;text-align:right;width:75px;float:left;height:40px;line-height:40px;padding-right:5px;}
+/* 发送附件 */
+.attachment { margin-left: 80px; line-height: 24px; }
+.attachment i { font-size: 14px; color: #34495e; background:url("../img/msg-icon.png") no-repeat -149px -28px;background-size: 250px;width:24px;height:24px;float:left;}
+.attachment a { font-size: 12px; color: #34495e; }
+/* 发送信息 */
+.job-mail-box .txt { float: left; width: 418px; padding: 10px; border: 1px solid #d7dcde; border-radius: 2px;}
+.job-mail-box .txt-over{overflow:hidden;height:300px;box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);  border-radius: 5px;}
+.job-mail-box .txt .txt-bd {position:absolute; padding-bottom: 40px;top:0;}
+.job-mail-box .txt .txt-bd .txt-hd { background: url('../img/card-bg.png') no-repeat top center; width: 418px; height: 150px; padding-top:50px;border-radius: 5px; }
+.job-mail-box .txt .txt-bd .txt-hd a.avatar { display: block; margin: 0 auto; width: 148px; height: 148px; border-radius: 50%; overflow:hidden;}
+.job-mail-box .txt .txt-bd .txt-hd a.avatar img { width: 148px; height: 148px; }
+.job-mail-box .txt .txt-bd .info { margin-top: 22px; color: #34495e; }
+.job-mail-box .txt .txt-bd .info h1 { font-weight: normal; font-size: 22px; margin-bottom: 14px; text-align: center; }
+.job-mail-box .txt .txt-bd .info .tag { font-size: 16px; text-align: center; display: table; margin: 0 auto; }
+.job-mail-box .txt .txt-bd .info .tag span { float: left; margin: 0 12px; }
+
+.job-mail-box .txt .txt-bd .info .del { padding-top: 10px; }
+.job-mail-box .txt .txt-bd .info .del li { margin-top: 10px; line-height: 25px; font-size: 14px; }
+.job-mail-box .txt .txt-bd .info .del li p { background: url('../img/bg-icon.png') no-repeat; width: 24px; height: 24px; margin: 0 auto; }
+.job-mail-box .txt .txt-bd .info .del li p.bg-del { background-position: 0 0; }
+.job-mail-box .txt .txt-bd .info .del li p.bg-ui { background-position: -24px 0; }
+.job-mail-box .txt .txt-bd .info .del li p.bg-qq { background-position: 0 -24px; }
+.job-mail-box .txt .txt-bd .info .del li p.bg-mail { background-position: -24px -24px; }
+.job-mail-box .txt .txt-bd .info .del li span { display: block; text-align: center; margin-top: 5px; }
+.job-mail-box .txt .txt-bd .info .del li span a {display: block;line-height: 25px; color: #34495e; }
+.job-mail-box .txt .txt-bd .info .del li span a:hover { color: #3498db; }
+.job-mail-box .target{width: 5px; padding:0 2px; background: #f8f9fa;position: absolute; top: 10px;right: 0;height:300px;border-radius:4px;opacity:1;}
+.job-mail-box .bar{width: 4px;min-height: 50px; background: #bdc3c7;border-radius: 10px; position: absolute; top: 0;}
+
+/* 进度 */
+.job-mail-box .input_wait{width:190px;position:relative;height:20px;line-height:20px;margin:0 auto;text-align:center;background:#3a99d8;border-radius:2px;margin-top: -25px;margin-bottom: 5px;font-size:12px;color:#fff;}
+.job-mail-box .input_wait span{left:40px;width:20px;height:20px;background:url("../img/icon-wait.png") no-repeat center center;background-size:14px;
+display:inline-block; position:absolute;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 5000ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;}
+@keyframes mymove{from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes mymove{from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+@-webkit-keyframes mymove{from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+@-o-keyframes mymove{from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}

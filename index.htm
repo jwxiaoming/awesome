@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://uier.ui.cn/view -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>简历预览</title>
+		
+		<meta name="Keywords" content="">
+		<meta name="description" content="">
+        <link rel="icon" href="https://uier.ui.cn/favicon.ico">
+		<link rel="stylesheet" href="./index_files/base.css">
+		<link rel="stylesheet" href="./index_files/job.css">
+		<link rel="stylesheet" href="./index_files/iconfont.css">
+		<link rel="stylesheet" href="./index_files/job_edit.css">
+		<link rel="stylesheet" href="./index_files/job_preview.css">
+		<script type="text/javascript" src="./index_files/jquery.js"></script>
+		<script type="text/javascript" src="./index_files/modal-show.js"></script><style>
+.overflow_hidden{overflow:hidden;}
+.modal-main {position: fixed; top: 0; left: 0; right: 0; bottom: 0;z-index: 1040; overflow-x: hidden; overflow-y: auto;}
+.modal-main .modal-body{background: #fff;margin: 0 auto;min-height: 300px;border-radius:2px;padding:30px 40px 20px 30px;z-index: 1; position: relative; margin:0 auto;}
+.modal-body .modal-close{position:absolute;right:23px;z-index:1;cursor:pointer;top:20px;color:#7d7d7d;font-size:18px;}
+.opacity_on {position:absolute;background: #000;height:100%;opacity: 0.5;top: 0; left: 0; right: 0;}
+.ui_select{height:50px;min-width:200px;float:left;border: #e4e9ed 1px solid;border-radius: 2px;}
+.ui_select span{height:50px;padding-right:36px;padding-left:16px;display:block;font-size: 16px;line-height: 50px;color: #bdc3c7;cursor: pointer;}
+.ui_select span.Selcolor{color: #34495e;}
+.ui_select ul{border:1px solid #e4e9ed;left:-1px;right:-1px;position: absolute;top:50px;}
+.ui_select ul li{line-height:50px;height:50px;}
+.ui_select ul li a{display:block;color:#34495e;padding-left:20px;line-height:50px;height:50px;font-size:16px;}
+.ui_select ul li a:hover{background: #ecf0f1;transition:all 0.3s;}
+.ui_select ul li.on{background: #ecf0f1;}
+.ui_select .icon-down-mini{position: absolute;font-size: 24px;right: 5px;top: 13px;}
+</style>
+
+        <script type="text/javascript" src="./index_files/msgTip.js"></script>
+        <script type="text/javascript" src="./index_files/scroll.js"></script>
+
+    </head>
+	<body class="job_user_body" style="">
+    	<div id="ajax-hook"></div>
+        <div class="prev_top"></div>
+    	<div class="job-preview-con pos">
+        	<!-- <div class="topquan"></div> -->
+            <div class="job_user_content pos z">
+        <div class="topquan"></div>
+        <!---->
+        <div class="job_user_ban pos" style="background:url(https://imguier.ui.cn/job/2018/12/19/1545209772.png) no-repeat">
+        	<div class="pdflogo"></div>
+            <div class="pos" style="z-index:1;">
+                <!---->
+                <div class="user_wrap pos">
+                    <img class="name_img" src="./index_files/1545824102.png">
+                </div>
+                <!---->
+                <div class="user_name pos">
+                    <div class="dw_name">
+                    <input class="job_uanem_input z" disabled="" value="李若铭" type="text">
+                    </div>
+                </div>
+                <!---->
+                <div class="user_qzzt">
+                    <div id="edit_qzzt" class="pos">
+                        <span>离职寻找中</span>
+                    </div>  
+                </div>
+                <!---->
+                <div class="user_url"><a target="_blank" href="http://i.ui.cn/ucenter/1008259">个人主页</a></div>
+            </div>
+            <i class="bg_op"></i>
+            
+        </div>
+        
+        <!---->
+        <div class="job_user_list mtm">
+            <!-- 基本信息 -->
+            <div class="job_user_list pos">
+                <div id="rightMsg0" class="h_title">
+                    <h3>基本信息</h3>
+                 </div>
+                <!-- 内容 -->
+                <div class="click_edit_content pbw">
+                    <!---->
+                    <div class="click_content_block">
+                        <ul class="edit_jb_msg cl">
+                            <li>
+                                <i class="icon-cake-line"></i><p>1996年08月03日</p>
+                            </li>
+                            <li>
+                                <i class="icon-bag-line"></i><p>
+                               4年工作经验                                </p>
+                            </li>
+                            <li>
+                                <i class="icon-phone-line"></i><p>15228880803</p>
+                            </li>
+                            <li>
+                                <i class="icon-edu-line"></i><p>大专</p>
+                            </li>
+                            <li>
+                                <i class="icon-xingbie"></i><p>男</p>
+                            </li>
+                            <li>
+                                <i class="icon-email-line"></i><p>904158347@qq.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <!-- 内容 END -->
+            </div>
+            
+            <!-- 我的技能 -->
+            <div class="job_user_list pos">
+                <div id="rightMsg1" class="h_title">
+                    <h3>我的技能</h3>
+                </div>
+                <!-- 默认显示跟点击显示 -->
+                <div class="click_edit_content pbw">
+                    <!-- 默认显示 -->
+                    <div class="click_content_block">
+                        <div class="user_lable cl">
+                            <p>交互动效</p>
+                            <p>Sketch设计UI</p>
+                            <p>jQuery</p>
+                            <p>some React&Vue</p>
+                            <p>python3</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 默认显示跟点击显示 END -->
+            </div>
+			
+			<!-- 工作经历 -->
+	            <div class="job_user_list pos">
+	                <div id="rightMsg2" class="h_title">
+	                    <h3>工作经历</h3>
+	                </div>
+	                <!-- 点击编辑按钮 -->
+	                <div class="click_edit_content pbw">
+	                    <!-- 默认显示 -->
+	                    <div class="click_content_block">
+	                        <div class="job_list_jl">
+			                <div class="job_jl_title">
+			                	<i class="border-radius"></i>
+			                    <p class="datatime">2018.06 - 2018.12</p>
+			                    <p class="company">成都乐云信息技术有限公司</p>
+			                    <p class="position">UI设计师</p>
+			                </div>
+			                <div class="job_jl_content pos">
+			                    <div class="job_jl_text f14">
+			                    	<p class="introduction">1.负责企业产品官网web端与手机端设计;<br><br>2.负责企业产品app的页面设计</p>
+			                        <ul class="slimg cl prolist"><li rel="383899"><a target="_blank" href="http://www.ui.cn/project.php?id=383899"><img src="./index_files/2198219.png"></a></li><li rel="428238"><a target="_blank" href="http://www.ui.cn/project.php?id=428238"><img src="./index_files/2188117.png"></a></li><li rel="428268"><a target="_blank" href="http://www.ui.cn/project.php?id=428268"><img src="./index_files/2188334.png"></a></li><li rel="428329"><a target="_blank" href="http://www.ui.cn/project.php?id=428329"><img src="./index_files/2188576.png"></a></li><li rel="428337"><a target="_blank" href="http://www.ui.cn/project.php?id=428337"><img src="./index_files/2188623.png"></a></li><li rel="428340"><a target="_blank" href="http://www.ui.cn/project.php?id=428340"><img src="./index_files/2188656.png"></a></li></ul></div></div></div><div class="job_list_jl">
+			                <div class="job_jl_title">
+			                	<i class="border-radius"></i>
+			                    <p class="datatime">2014.04 - 2018.06</p>
+			                    <p class="company">成都金诺广告策划有限公司</p>
+			                    <p class="position">web前端+平面UI设计</p>
+			                </div>
+			                <div class="job_jl_content pos">
+			                    <div class="job_jl_text f14">
+			                    	<p class="introduction">1.负责PC端网站、手机端微网站的结构设计与制作工作，以及H5动画、动效制作、整体程序等；<br><br>2.参与制作程序界面设计，微信端H5图形、图标、界面排布等；<br><br>3.了解客户业务逻辑，使用习惯，根据客户需求，提出用户体验度友好的设计与制作；<br><br>3.与后端人员协调沟通共同合作项目</p>
+			                        <ul class="slimg cl prolist"><li rel="292567"><a target="_blank" href="http://www.ui.cn/project.php?id=292567"><img src="./index_files/2197971.png"></a></li><li rel="343895"><a target="_blank" href="http://www.ui.cn/project.php?id=343895"><img src="./index_files/2188077.png"></a></li><li rel="374703"><a target="_blank" href="http://www.ui.cn/project.php?id=374703"><img src="./index_files/2188149.png"></a></li><li rel="411772"><a target="_blank" href="http://www.ui.cn/project.php?id=411772"><img src="./index_files/2196503.png"></a></li><li rel="412066"><a target="_blank" href="http://www.ui.cn/project.php?id=412066"><img src="./index_files/2188882.png"></a></li></ul></div></div></div>	                    </div>
+	                </div>
+	                
+	            </div>            
+            <!-- 教育经历 -->
+            
+            <!-- 项目经历 -->
+                <div class="job_user_list content_works pos" id="proexp">
+                    <div id="rightMsg2" class="h_title">
+                        <h3>项目经历</h3>
+                    </div>
+                    <!-- 点击编辑按钮 -->
+                    <div class="click_edit_content pbw">
+                        <!--  -->
+                        <div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2018.11 - 2018.11</p>
+		                            <p>Girls Coding Day</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>担任Girls Coding Day公益编程活动教练，带领小伙伴完成了一个基于python的爬虫小程序</p></div></div></div><div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2018.10 - 2018.10</p>
+		                            <p>电影天堂概念设计</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>为一款电影app设计界面</p><ul class="slimg cl"><li rel="430087"><a target="_blank" href="http://www.ui.cn/project.php?id=430087"><img src="./index_files/2202328.jpg"></a></li></ul></div></div></div><div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2018.09 - 2018.09</p>
+		                            <p>成都破解者黑客松</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>获得第五名【人民解锁者】<br><br>以不同数据点评估司机或卡车<br>司机/卡车监控应用程序是一个原型webapp，专注于提供摘要信息和显示司机及其卡车的安全行为。该应用程序显示了根据不同数据点计算的每个驾驶员的总分，例如安全记录、卡车年龄、公里数。 它还为每个司机提供了 一个具有更多特定指标的详情页面。这个概念可以扩展并集成到现有的物流系统中，用于分析驾驶员和卡车的数据和为货主方提供一个有效的安全司机/货车选择的参考。</p><ul class="slimg cl"><li rel="429600"><a target="_blank" href="http://www.ui.cn/project.php?id=429600"><img src="./index_files/2198293.png"></a></li></ul></div></div></div><div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2018.01 - 2018.02</p>
+		                            <p>【微信表情包】小指头表情包设计</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>负责微信动态表情包设计与制作，上架后累计发送量超1W次。</p><ul class="slimg cl"><li rel="428547"><a target="_blank" href="http://www.ui.cn/project.php?id=428547"><img src="./index_files/2189979.png"></a></li></ul></div></div></div><div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2017.08 - 2017.08</p>
+		                            <p>活动情报站app设计&amp;山居订房小程序设计</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>成都活动情报站app设计<br>山居订房系统的界面设计</p><ul class="slimg cl"><li rel="292557"><a target="_blank" href="http://www.ui.cn/project.php?id=292557"><img src="./index_files/2072828.png"></a></li><li rel="299409"><a target="_blank" href="http://www.ui.cn/project.php?id=299409"><img src="./index_files/2072775.png"></a></li></ul></div></div></div><div class="job_list_jl">
+		                        <div class="job_jl_title">
+		                        	<i class="border-radius"></i>
+		                            <p>2017.07 - 2017.07</p>
+		                            <p>【手机淘宝】海洋之心·主题皮肤设计</p>
+		                        </div>
+		                        <div class="job_jl_content pos">
+		                            <div class="job_jl_text f14">
+		                                <p>负责手机淘宝app的主题界面设计，上架后使用人次超10W。</p><ul class="slimg cl"><li rel="255096"><a target="_blank" href="http://www.ui.cn/project.php?id=255096"><img src="./index_files/2188700.png"></a></li></ul></div></div></div>                    </div>
+                </div>            
+            <!-- 期望工作 -->
+                <div class="job_user_list pos">
+                    <div id="rightMsg4" class="h_title">
+                        <h3>期望工作</h3>
+                    </div>
+                    <!-- 点击编辑按钮 -->
+                    <div class="click_edit_content pbw">
+                        <!-- 默认显示 -->
+                        <div class="click_content_block">
+                            <ul class="four_list cl">
+                                <li><strong>工作类型 :</strong><span>全职</span></li>
+                                <li><strong>期望职位 :</strong><span>UI方向/UI设计</span></li>
+                                <li><strong>期望薪资 :</strong><span>5k-10k</span></li>
+                                <li><strong>期望地点 :</strong><span>四川省/成都市</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <!-- 社交信息 -->
+                    <div class="job_user_list pos">
+                        <div id="rightMsg5" class="h_title">
+                            <h3>社交信息</h3>
+                        </div>
+                        <div class="click_edit_content pbw">
+                            <!-- 默认显示 -->
+                            <div class="click_content_block">
+                                <ul class="four_list preview_imsg cl">
+                                    <li><i class="icon-weixin" rel="14637"></i>jwxiaoming</li><li><i class="icon-qq" rel="14638"></i>904158347</li>                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            <!-- 自我描述 -->
+                <div class="job_user_list pos">
+                    <div id="rightMsg6" class="h_title">
+                        <h3>自我描述</h3>
+                    </div>
+                    <div class="click_edit_content pbw">
+                        <!-- 默认显示 -->
+                        <div class="click_content_block">
+                            <div class="me_desc f16">
+                                <p>懂前端，会设计。<br>对工作有责任心，好学上进！</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>            
+                   </div>
+       
+       <div class="bottom_bor">
+            <p></p><p></p><p></p>
+        </div>
+        <!-- 最底部的效果 -->
+        <div class="bottom_diejia"></div>   
+    </div>
+
+            	<!-- right -->
+
+        </div>
+            <!-- 发送简历 -->
+        <div id="modal-main" class="job-mail-box modal-main hide">
+    <form>
+    <div class="modal-body content">
+        <div class="input_wait hide"><span></span>邮件发送中...</div>
+        <div class="input_title">
+            <span class="tit z">邮箱：</span><input type="text" class="lang-input" name="email" autocomplete="off" value="">
+        </div>
+        <div class="input_title mtw">
+            <span class="tit z">标题：</span><input type="text" class="lang-input" name="from" value="李若铭-应聘UI方向（UI设计）【UI中国推荐】">
+                    </div>
+        <div class="attachment mtm">
+            <i></i>
+            <a href="https://uier.ui.cn/view">李若铭的简历.PDF</a>
+        </div>
+        <div class="input_title cl">
+            <span class="tit z">正文：</span>
+            <div class="txt pos" id="scroll_content">
+            <div class="txt-over pos">
+            <div class="txt-bd main-content-c">
+                <div class="txt-hd" style="background:url(&#39;https://imguier.ui.cn/job/2018/12/19/1545209772.png&#39;) no-repeat;background-size:420px;">
+                    <a class="avatar" href="javascript:;"><img src="./index_files/1545824102.png" title="user"></a>
+                </div>
+                <div class="info">
+                    <h1>李若铭</h1>
+                    <div class="tag">
+                       <span>期望职位：UI方向/UI设计</span> 
+                    </div>
+                    <div class="tag mtm">
+                        <span></span>
+                        <span>4年工作经验</span>
+                        <span>四川省/成都市</span>
+                    </div>
+                    <ul class="del cl">
+                        <li>
+                            <p class="bg-del"></p>
+                            <span class="">15228880803</span>
+                        </li>
+                        <li>
+                            <p class="bg-ui"></p>
+                            <span class=""><a target="_blank" href="https://i.ui.cn/ucenter/1008259">查看个人作品</a></span>
+                        </li>
+                        <li>
+                                <p class="bg-qq"></p>
+                                <span class="">904158347</span>
+                            </li>                        <li>
+                            <p class="bg-mail"></p>
+                            <span class="">904158347@qq.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!-- sc -->
+            <div class="target">
+                <div class="bar"></div>
+            </div>
+        </div>
+        </div>
+        <div class="btn_fasong mtw">
+            <button class="lang-btn" type="submit">
+                <span class="lang-btn-content">发送</span>
+            </button>
+            <button type="button" class="lang-btn lang-cancel modal-hide">
+                <span class="lang-btn-content">取消</span>
+            </button>
+        </div>
+    </div>
+</form>
+    <!-- 阴影透明度 -->
+    <div class="opacity_on modal-hide"></div>
+</div>
+
+<script type="text/javascript">
+    $(function() {      
+        var isRec = false;
+        $('#modal-main form').submit(function() {
+            if (isRec == true) return false; 
+            isRec = true;
+            $(".input_wait").removeClass('hide');
+            var $this = $(this);
+            $.ajax({
+                url      : '/asc',
+                type     : 'post',
+                data     : $this.serialize(),
+                dataType : 'json',
+                success  : function(r) {
+                    isRec = false;
+                    globalTip(r.msg);
+                    $(".input_wait").addClass('hide');
+                    if (r.stats == 'no') return;
+                    $('#modal-main .modal-hide').trigger('click');
+                },
+                error   : function() {
+                    isRec = false;
+                }
+            });
+            return false;
+        });
+    });
+</script>
+        
+        <div style="display:none">
+    <script src="./index_files/stat.php" language="JavaScript"></script><script src="./index_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=5726673" target="_blank" title="站长统计">站长统计</a>
+    <script src="./index_files/stat(1).php" language="JavaScript"></script><script src="./index_files/core(1).php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1254630466" target="_blank" title="站长统计">站长统计</a>
+</div>
+    
+</body></html>
